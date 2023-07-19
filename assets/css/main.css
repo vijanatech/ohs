@@ -13,7 +13,7 @@
   --color-background: #ffffff;
   --color-background-rgb: 255, 255, 255;
   --color-primary: #4ec24e;
-  --color-primary-rgb: 69, 200, 69;
+  --color-primary-rgb: 222, 27, 92;
   --color-secondary: #32353a;
   --color-secondary-rgb: 50, 53, 58;
   --color-box-background: #ffffff;
@@ -168,7 +168,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 110px;
   margin-right: 6px;
 }
 
