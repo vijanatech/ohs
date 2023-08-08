@@ -49,7 +49,7 @@ export const Contact = component$(() => {
                             if (store.message.template_params.userName == "" || store.message.template_params.email == "" || store.message.template_params.subject == "" || store.message.template_params.message == "") {
                                 console.log("Please fill all the fields");
                             } else {
-                                //e.preventDefault();
+                                console.log(e);
                                 store.showLoader = true;
                                 API.sendEmail(store);
                             }

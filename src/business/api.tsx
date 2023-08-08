@@ -11,17 +11,17 @@ export default class API {
             })
                 .then((response) => {
                     if (response.ok) {
-                        store.showLoader = false;
+                        store.showLoader = false
                         store.response = store.response_success
                         setTimeout(() => {
                             store.response = store.default_response
-                        }, 3000);
+                        }, 3000)
                     } else {
-                        store.showLoader = false;
+                        store.showLoader = false
                         store.response = store.response_error
                         setTimeout(() => {
                             store.response = store.default_response
-                        }, 3000);
+                        }, 3000)
                     }
                 })
                 .catch(() => {
@@ -37,7 +37,7 @@ export default class API {
             store.response = store.response_error
             setTimeout(() => {
                 store.response = store.default_response
-            }, 3000);
-        };
+            }, 3000)
+        }
     }
 }
