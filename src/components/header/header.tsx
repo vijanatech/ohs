@@ -39,7 +39,7 @@ export default component$(() => {
       </nav>
       {/* <!-- End Nav Menu --> */}
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="/sms">Push sms</a>
 
     </div>
   </header>
