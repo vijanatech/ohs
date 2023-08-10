@@ -1,4 +1,4 @@
-import { Client, Account, ID, Databases, Permission, Role } from 'appwrite';
+import { Client, ID, Databases, Permission, Role } from 'appwrite';
 
 export default class API {
 
@@ -17,13 +17,14 @@ export default class API {
             data,
             permissions
         );
-        promise.then(function (response) {
+        promise.then(function () {
             store.showLoader = false
             store.response = store.response_success
+            console.log(store.response)
             setTimeout(() => {
                 store.response = store.default_response
             }, 3000)
-        }, function (error) {
+        }, function () {
             store.showLoader = false
             store.response = store.response_error
             setTimeout(() => {
