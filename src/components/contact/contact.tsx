@@ -51,7 +51,7 @@ export const Contact = component$(() => {
                             } else {
                                 console.log(e);
                                 store.showLoader = true;
-                                API.sendEmail(store);
+                                //API.sendEmail(store);
                             }
                         }
                     }>Send Message</button>
