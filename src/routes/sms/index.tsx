@@ -24,6 +24,16 @@ export default component$(() => {
       color: '',
       style: 'display: none'
     },
+    sms_success_response: {
+      value: 'SMS sent successfully',
+      color: 'alert alert-success',
+      style: ''
+    },
+    sms_error_response: {
+      value: 'Error sending SMS',
+      color: 'alert alert-danger',
+      style: ''
+    },
     data: {
       name: "",
       number: "",
@@ -33,6 +43,7 @@ export default component$(() => {
       language: ""
     },
   });
+
   const SubmitButton = component$(() => {
     if (store.showLoader) {
       return (
@@ -108,25 +119,25 @@ export default component$(() => {
                   <div class="row gy-4">
                     <div class="col-md-12">
                       <input type="text" name="name" class="form-control" placeholder="Full Name" required
-                      value={store.data.name}
-                      onChange$={(e) => store.data.name = (e.target as HTMLInputElement).value}
-                      
+                        value={store.data.name}
+                        onChange$={(e) => store.data.name = (e.target as HTMLInputElement).value}
+
                       ></input>
                     </div>
 
                     <div class="col-md-12 ">
                       <input style="text-color: #bbb;" type="tel" class="form-control" name="email" placeholder="Phone Number" required
-                      value={store.data.number}
-                      onChange$={(e) => store.data.number = (e.target as HTMLInputElement).value}
-                      
+                        value={store.data.number}
+                        onChange$={(e) => store.data.number = (e.target as HTMLInputElement).value}
+
                       ></input>
                     </div>
 
                     <div class="col-md-12 ">
                       <select style="color: #bbb;" class="form-select" aria-label="Default select example"
-                      value={store.data.gender}
-                      onChange$={(e) => store.data.gender = (e.target as unknown as HTMLInputElement).value}
-                      
+                        value={store.data.gender}
+                        onChange$={(e) => store.data.gender = (e.target as unknown as HTMLInputElement).value}
+
                       >
                         <option selected>Gender</option>
                         <option value="Male">Male</option>
@@ -136,24 +147,24 @@ export default component$(() => {
 
                     <div class="col-md-12">
                       <input type="text" class="form-control" name="subject" placeholder="Region" required
-                      value={store.data.region}
-                      onChange$={(e) => store.data.region = (e.target as HTMLInputElement).value}
-                      
+                        value={store.data.region}
+                        onChange$={(e) => store.data.region = (e.target as HTMLInputElement).value}
+
                       ></input>
                     </div>
 
                     <div class="col-md-12">
                       <input type="text" name="name" class="form-control" placeholder="District" required
-                      value={store.data.district}
-                      onChange$={(e) => store.data.district = (e.target as HTMLInputElement).value}
-                      
+                        value={store.data.district}
+                        onChange$={(e) => store.data.district = (e.target as HTMLInputElement).value}
+
                       ></input>
                     </div>
 
                     <div class="col-md-12 ">
                       <select style="color: #bbb;" class="form-select" aria-label="Default select example"
-                      value={store.data.language}
-                      onChange$={(e) => store.data.language = (e.target as unknown as HTMLInputElement).value}
+                        value={store.data.language}
+                        onChange$={(e) => store.data.language = (e.target as unknown as HTMLInputElement).value}
                       >
                         <option selected>Language</option>
                         <option value="English">English</option>

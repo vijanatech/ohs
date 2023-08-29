@@ -25,12 +25,13 @@ export default class API {
         }
     }
 
-    static async sendSms(number: string, message: string = "Hongera, Taarifa zako zimepokelewa kikamilifu ONE HEALTH SOCIETY na sasa utakuwa ukipokea Elimu ya Afya kwenye simu yako kwa Lugha uliyoichagua.") {
+    static sendSms = (async (number: string, message: string = "Hongera, Taarifa zako zimepokelewa kikamilifu ONE HEALTH SOCIETY na sasa utakuwa ukipokea Elimu ya Afya kwenye simu yako kwa Lugha uliyoichagua.") => {
         const token = await this.login()
         if (token !== "") {
-            const response = await fetch('https://sms.onfonmedia.co.ke/v2_send', {
+            const response = await fetch('https://apis.onfonmedia.co.ke/v2_send', {
                 method: 'POST',
                 headers: {
+                    "Authorization": `Bearer ${token}`,
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
@@ -42,46 +43,62 @@ export default class API {
                     "dlr-level": 1
                 }),
             });
-            console.log(response)
             if (response.ok) {
                 const data = await response.json();
-                
                 return data;
             } else {
                 throw new Error('Failed to push sms');
             }
-        }else{
+        } else {
             throw new Error('Failed to push sms');
         }
 
-    }
+    })
 
-    static createPushSms = (store: any, data: any) => {
+    static createPushSms = (async (store: any, data: any) => {
+        let isSmsSuccess = false
         const databases = new Databases(this.client);
         const uniqueID = ID.unique()
         const permissions = [Permission.read(Role.guests())]
-        const promise = databases.createDocument(
-            '64d4a625a1c550eeca93',
-            '64d4a7d56981a119bfaf',
-            uniqueID,
-            data,
-            permissions
-        );
-        promise.then(function () {
-            store.showLoader = false
-            store.response = store.response_success
-            API.sendSms(data.number)
+
+        await API.sendSms(data.number).then(() => {
+            isSmsSuccess = true
+            store.response = store.sms_success_response
             setTimeout(() => {
                 store.response = store.default_response
             }, 3000)
-        }, function () {
+        }).catch(() => {
+            isSmsSuccess = false
             store.showLoader = false
-            store.response = store.response_error
+            store.response = store.sms_error_response
             setTimeout(() => {
                 store.response = store.default_response
             }, 3000)
-        });
-    }
+        })
+        if (isSmsSuccess) {
+            const promise = databases.createDocument(
+                '64d4a625a1c550eeca93',
+                '64d4a7d56981a119bfaf',
+                uniqueID,
+                data,
+                permissions
+            );
+            promise.then(function () {
+                store.showLoader = false
+                store.response = store.response_success
+                setTimeout(() => {
+                    store.response = store.default_response
+                }, 3000)
+            }, function () {
+                store.showLoader = false
+                isSmsSuccess = false
+                store.response = store.response_error
+                setTimeout(() => {
+                    store.response = store.default_response
+                }, 3000)
+            })
+        }
+    })
 
     static sendEmail = (store: any) => {
         const data = {
