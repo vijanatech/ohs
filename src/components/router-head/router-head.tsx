@@ -14,7 +14,7 @@ export const RouterHead = component$(() => {
       <meta charSet="utf-8"></meta>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
 
-  <title>Blog - One Health Society</title>
+  <title>One Health Society</title>
   <meta content="" name="description"></meta>
   <meta content="" name="keywords"></meta>
 
