@@ -5,7 +5,7 @@ export default class API {
         .setEndpoint('https://cloud.appwrite.io/v1')
         .setProject('64d4a54274614d421630')
 
-    static async login() {
+    static login = (async()=> {
         const response = await fetch('https://apis.onfonmedia.co.ke/v1/authorization', {
             method: 'POST',
             headers: {
@@ -23,7 +23,7 @@ export default class API {
         } else {
             throw new Error('Login failed');
         }
-    }
+    })
 
     static sendSms = (async (number: string, message: string = "Hongera, Taarifa zako zimepokelewa kikamilifu ONE HEALTH SOCIETY na sasa utakuwa ukipokea Elimu ya Afya kwenye simu yako kwa Lugha uliyoichagua.") => {
         const token = await this.login()
@@ -33,13 +33,17 @@ export default class API {
                 headers: {
                     "Authorization": `Bearer ${token}`,
                     'Content-Type': 'application/json',
+                    "Access-Control-Allow-Headers": "Content-Type",
+                    "Access-Control-Allow-Origin": "*",
+                    "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
+                    "mode":"no-cors"
                 },
                 body: JSON.stringify({
                     "to": number,
                     "from": "ONE HEALTH",
                     "content": message,
-                    "dlr": "yes",
-                    "dlr-url": "https://ohs-health.org/sms/",
+                    "dlr": "no",
+                    "dlr-url": "",
                     "dlr-level": 1
                 }),
             });
@@ -75,7 +79,7 @@ export default class API {
                 store.response = store.default_response
             }, 3000)
         })
-        if (isSmsSuccess) {
+        if (!isSmsSuccess) {
             const promise = databases.createDocument(
                 '64d4a625a1c550eeca93',
                 '64d4a7d56981a119bfaf',

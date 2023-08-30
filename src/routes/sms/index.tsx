@@ -1,4 +1,4 @@
-import { component$, useStore } from '@builder.io/qwik';
+import {component$, useStore } from '@builder.io/qwik';
 import API from '~/business/api';
 import { Alert } from '~/components/alert/alert';
 export default component$(() => {
@@ -74,6 +74,8 @@ export default component$(() => {
       );
     }
   });
+
+  
   return (
     <>
       <main id="main">
