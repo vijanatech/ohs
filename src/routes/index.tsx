@@ -79,13 +79,13 @@ export default component$(() => {
                 <ImgClient4 class="img-fluid" alt="" />
               </div>
 
-              <div class="col-xl-2 col-md-3 col-6 client-logo">
+              {/* <div class="col-xl-2 col-md-3 col-6 client-logo">
                 <ImgClient5 class="img-fluid" alt="" />
               </div>
 
               <div class="col-xl-2 col-md-3 col-6 client-logo">
                 <ImgClient6 class="img-fluid" alt="" />
-              </div>
+              </div> */}
 
             </div>
 
@@ -116,7 +116,7 @@ export default component$(() => {
                     <div class="icon-box">
                       <i class="bi bi-eye"></i>
                       <h3>Vision</h3>
-                      <p>To see the society with empowered people in promoting and advocating healthful communities.</p>
+                      <p>To achieve healthier community in which global health challenges "Antimicrobial Resistance and Neglected Tropical Diseases" are sustainably mitigated and contained.</p>
                     </div>
                   </div>
 
@@ -124,7 +124,7 @@ export default component$(() => {
                     <div class="icon-box">
                       <i class="bi bi-flag"></i>
                       <h3>Mission</h3>
-                      <p>To become a leading organization in promoting of rational use of medicines to serve the community and meet humanitarian needs.</p>
+                      <p>To conduct impactful training, advocacy, community engagement and research to influence Social Behavior change in the fight against global health challenges "Antimicrobial Resistance and Neglected Tropical Disease" using One Health Approach.</p>
                     </div>
                   </div>
 
@@ -132,10 +132,13 @@ export default component$(() => {
                     <div class="icon-box">
                       <i class="bi bi-command"></i>
                       <h3>Objectives</h3>
-                      <p>1. Advocating for healthy living with an objective of eliminating disease.
-                        <br></br>2. To promote quality of health care services.
-                        <br></br>3. To promote, raising awareness on antimicrobial resistance and education on rational usage of medicines.
-                        <br></br>4. Establishing innovative environment for health research and surveillance.</p>
+                      <p>1. To participate in collaborative AMR & NTDs Research and Surveillance programs to influence decision making using Data.
+                        <br></br>2. To Generate and Translate Advocacy materials into several local languages to reach a large population and influence behavior change.
+                        <br></br>3. To Create awareness and understanding on Antimicrobial resistance and Neglected Tropical Diseases.
+                        <br></br>4. To run Youth Fellowship and Capacity Building in Fighting Antimicrobial Resistance and Neglected Tropical Diseases.
+                        <br></br>5. To promote use of digital technology to spread messages on effects and actions to be taken to fight AMR.
+                        <br></br>6. To promote behavior change to the community through community engagement and use of influential people.
+                        <br></br>7. To foster multi-sectorial collaboration for knowledge sharing and joint activities.</p>
                     </div>
                   </div>
                   <br></br>
@@ -143,13 +146,15 @@ export default component$(() => {
                     <div class="icon-box">
                       <i class="bi bi-graph-up-arrow"></i>
                       <h3>Core Values</h3>
-                      <p>✓ Collaboration
+                      <p>✓ Integrity 
+
+                        <br></br>✓ Professionalism 
+
+                        <br></br>✓ Collaboration 
 
                         <br></br>✓ Openness
 
-                        <br></br>✓ Respect
-
-                        <br></br>✓ Empowerment</p>
+                        <br></br>✓ Empowerment </p>
                     </div>
                   </div>
 
@@ -226,7 +231,7 @@ export default component$(() => {
         <section id="features" class="features">
 
           {/* <!--  Section Title --> */}
-          <div class="container section-title" data-aos="fade-up">
+          {/* <div class="container section-title" data-aos="fade-up">
             <h2>Our Projects</h2>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
           </div>
@@ -266,7 +271,7 @@ export default component$(() => {
               </div>
             </div>
 
-          </div>
+          </div> */}
 
         </section>
         {/* <!-- End Features Section --> */}
@@ -286,15 +291,15 @@ export default component$(() => {
 
               <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-product">Card</li>
-                <li data-filter=".filter-branding">Web</li>
+                <li data-filter=".filter-app">Training & Workshop</li>
+                <li data-filter=".filter-product">Outreach</li>
+                <li data-filter=".filter-branding">Campaign</li>
               </ul>
               {/* <!-- End Portfolio Filters --> */}
 
               <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                {/* <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <ImgMasonryPortfolio1 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>App 1</h4>
@@ -302,7 +307,7 @@ export default component$(() => {
                     <a href="img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <ImgMasonryPortfolio2 class="img-fluid" alt="" />
@@ -314,7 +319,7 @@ export default component$(() => {
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                {/* <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                   <ImgMasonryPortfolio3 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Branding 1</h4>
@@ -322,9 +327,9 @@ export default component$(() => {
                     <a href="img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
-                </div>
+                </div> */}
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                {/* <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <ImgMasonryPortfolio4 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>App 2</h4>
@@ -332,7 +337,7 @@ export default component$(() => {
                     <a href="img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <ImgMasonryPortfolio5 class="img-fluid" alt="" />
@@ -354,7 +359,7 @@ export default component$(() => {
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                {/* <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <ImgMasonryPortfolio7 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>App 3</h4>
@@ -362,9 +367,9 @@ export default component$(() => {
                     <a href="img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
-                </div>
+                </div> */}
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                {/* <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <ImgMasonryPortfolio8 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Product 3</h4>
@@ -372,7 +377,7 @@ export default component$(() => {
                     <a href="img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                   <ImgMasonryPortfolio9 class="img-fluid" alt="" />
@@ -404,9 +409,9 @@ export default component$(() => {
               <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="content px-xl-5">
                   <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-                  <p>
+                  {/* <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -414,41 +419,43 @@ export default component$(() => {
 
                 <div class="faq-container">
                   <div class="faq-item faq-active">
-                    <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                    <h3><span class="num">1.</span> <span>What is the One Health Society?</span></h3>
                     <div class="faq-content">
-                      <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                      <p>A Youth led registered non-governmental organization founded in 2019, Its establishment came with the need for youth involvement in complimenting National Actions to fight Antimicrobial Resistance and Neglected Tropical Diseases.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div>
 
                   <div class="faq-item">
-                    <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
+                    <h3><span class="num">2.</span> <span>What does One Health Society do?</span></h3>
                     <div class="faq-content">
-                      <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                      <p>Conducting impactful research, Training, Fellowship program and Advocacy for Social Behavior change in antimicrobial use to fight Antimicrobial Resistance and Neglected Tropical Disease with One heath approach at the center of our activities</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div>
 
                   <div class="faq-item">
-                    <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
+                    <h3><span class="num">3.</span> <span>How is One Health Society funded?</span></h3>
                     <div class="faq-content">
-                      <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                      <p>OHS receives funding through founder and  team contribution, donation, grants and voluntary contributions from other partners.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div>
 
                   <div class="faq-item">
-                    <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span></h3>
+                    <h3><span class="num">4.</span> <span>How can I support the work of One Health Society?</span></h3>
                     <div class="faq-content">
-                      <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                      <p>OHS work in public health relies on the contributions and collaboration of many groups and individuals around the world including governments, donors, scientists, experts, implementing partners and advocates.
+Individuals and corporate partners can make financial contributions or in-kind donations direct to organization bank account or expertise to support our work 
+Individuals can also assist OHS by contributing expertise to our workforce through our careers section, participating in expert groups, as well as supporting our health guidance and messages in your health work and through discussions on social media.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div>
 
                   <div class="faq-item">
-                    <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
+                    <h3><span class="num">5.</span> <span>Is One Health Society a religious organization?</span></h3>
                     <div class="faq-content">
-                      <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                      <p>OHS is not a religious organization and is not affiliated with any specific spiritual belief.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div>
