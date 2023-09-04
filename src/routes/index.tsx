@@ -1,17 +1,8 @@
 
 import ImgMasonryPortfolio6 from '~/media/img/masonry-portfolio/masonry-portfolio-6.jpg?jsx';
 import ImgMasonryPortfolio9 from '~/media/img/masonry-portfolio/masonry-portfolio-9.jpg?jsx';
-import ImgMasonryPortfolio8 from '~/media/img/masonry-portfolio/masonry-portfolio-8.jpg?jsx';
-import ImgMasonryPortfolio7 from '~/media/img/masonry-portfolio/masonry-portfolio-7.jpg?jsx';
 import ImgMasonryPortfolio5 from '~/media/img/masonry-portfolio/masonry-portfolio-5.jpg?jsx';
-import ImgMasonryPortfolio4 from '~/media/img/masonry-portfolio/masonry-portfolio-4.jpg?jsx';
-import ImgMasonryPortfolio3 from '~/media/img/masonry-portfolio/masonry-portfolio-3.jpg?jsx';
-import ImgMasonryPortfolio1 from '~/media/img/masonry-portfolio/masonry-portfolio-1.jpg?jsx';
 import ImgMasonryPortfolio2 from '~/media/img/masonry-portfolio/masonry-portfolio-2.jpg?jsx';
-import ImgFeaturesLight1 from '~/media/img/features-light-1.jpg?jsx';
-import ImgFeaturesLight2 from '~/media/img/features-light-2.jpg?jsx';
-import ImgClient6 from '~/media/img/clients/client-6.png?jsx';
-import ImgClient5 from '~/media/img/clients/client-5.png?jsx';
 import ImgClient1 from '~/media/img/clients/client-1.png?jsx';
 import ImgClient2 from '~/media/img/clients/client-2.png?jsx';
 import ImgClient3 from '~/media/img/clients/client-3.png?jsx';
@@ -22,7 +13,7 @@ import ImgBlogAuthor2 from '~/media/img/blog/blog-author-2.jpg?jsx';
 import ImgBlog1 from '~/media/img/blog/blog-1.jpg?jsx';
 import ImgBlog2 from '~/media/img/blog/blog-2.jpg?jsx';
 import ImgBlog3 from '~/media/img/blog/blog-3.jpg?jsx';
-import ImgFeaturesLight3 from '~/media/img/features-light-3.jpg?jsx';import { component$ } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Contact } from '~/components/contact/contact';
 

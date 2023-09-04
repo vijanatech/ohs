@@ -1,5 +1,5 @@
 {
-  "manifestHash": "cgwuqe",
+  "manifestHash": "tztcyi",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -180,8 +180,8 @@
       "ctxName": "component$",
       "captures": false,
       "loc": [
-        1996,
-        45670
+        1191,
+        44865
       ]
     },
     "s_WmYC5H00wtI": {
@@ -1319,6 +1319,6 @@
     "rollup": "3.27.2",
     "env": "node",
     "os": "linux",
-    "node": "20.5.0"
+    "node": "20.4.0"
   }
 }
