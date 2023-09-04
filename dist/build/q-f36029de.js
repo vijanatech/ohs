@@ -1,1 +1,0 @@
-import{h as s,$ as t,w as e,x as a}from"./q-2d5edf8f.js";const c=r=>s(a,{children:t("div",null,{class:e(l=>l.color,[r]),role:"alert",style:e(l=>l.style,[r])},e(l=>l.value,[r]),3,null)},3,"rv_0");export{c as s_UI0cm5mLn3k};
