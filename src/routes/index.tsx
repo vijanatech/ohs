@@ -273,7 +273,7 @@ export default component$(() => {
           {/* <!--  Section Title --> */}
           <div class="container section-title" data-aos="fade-up">
             <h2>Portfolio</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> */}
           </div>
 
           <div class="container">
@@ -294,9 +294,9 @@ export default component$(() => {
                   <ImgMasonryPortfolio1 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>App 1</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div> */}
 
@@ -304,9 +304,9 @@ export default component$(() => {
                   <ImgMasonryPortfolio2 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Product 1</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div>
 
@@ -314,9 +314,9 @@ export default component$(() => {
                   <ImgMasonryPortfolio3 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Branding 1</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div> */}
 
@@ -324,19 +324,19 @@ export default component$(() => {
                   <ImgMasonryPortfolio4 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>App 2</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div> */}
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <ImgMasonryPortfolio5 class="img-fluid" alt="" />
                   <div class="portfolio-info">
-                    <h4>Product 2</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                    <h4>Meeting</h4>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div>
 
@@ -344,9 +344,9 @@ export default component$(() => {
                   <ImgMasonryPortfolio6 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Branding 2</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div>
 
@@ -354,9 +354,9 @@ export default component$(() => {
                   <ImgMasonryPortfolio7 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>App 3</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div> */}
 
@@ -364,19 +364,19 @@ export default component$(() => {
                   <ImgMasonryPortfolio8 class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Product 3</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div> */}
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <ImgMasonryPortfolio9 class="img-fluid" alt="" />
                   <div class="portfolio-info">
-                    <h4>Branding 3</h4>
-                    <p>Lorem ipsum, dolor sit</p>
+                    <h4>Outreach</h4>
+                  
                     <a href="img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  
                   </div>
                 </div>
 
@@ -639,7 +639,7 @@ Individuals can also assist OHS by contributing expertise to our workforce throu
         {/* <!-- End Call-to-action Section --> */}
 
         {/* <!-- Testimonials Section - Home Page --> */}
-        <section id="testimonials" class="testimonials">
+        {/* <section id="testimonials" class="testimonials">
 
           <div class="container">
 
@@ -656,7 +656,7 @@ Individuals can also assist OHS by contributing expertise to our workforce throu
               <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
 
                 <div class="swiper">
-                  <template class="swiper-config">
+                  <template class="swiper-config"> */}
                     {/* {
             "loop": true,
             "speed" : 600,
@@ -670,7 +670,7 @@ Individuals can also assist OHS by contributing expertise to our workforce throu
             "clickable": true
             }
             } */}
-                  </template>
+                  {/* </template>
                   <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
@@ -783,14 +783,14 @@ Individuals can also assist OHS by contributing expertise to our workforce throu
 
           </div>
 
-        </section>
+        </section> */}
         {/* <!-- End Testimonials Section --> */}
 
         {/* <!-- Recent-posts Section - Home Page --> */}
-        <section id="recent-posts" class="recent-posts">
+        {/* <section id="recent-posts" class="recent-posts"> */}
 
           {/* <!--  Section Title --> */}
-          <div class="container section-title" data-aos="fade-up">
+          {/* <div class="container section-title" data-aos="fade-up">
             <h2>Recent Posts</h2>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
           </div>
@@ -878,12 +878,12 @@ Individuals can also assist OHS by contributing expertise to our workforce throu
                 </article>
               </div>
 
-            </div>
+            </div> */}
             {/* <!-- End recent posts list --> */}
-
+{/* 
           </div>
 
-        </section>
+        </section> */}
         {/* <!-- End Recent-posts Section --> */}
 
         <Contact />

@@ -23,16 +23,18 @@ export default component$(() => {
           <li><a href="/wedo">What we do</a></li>
           <li><a href="/#portfolio">Portfolio</a></li>
           <li><a href="/#team">Team</a></li>
-          <li><a href="/blog">Blog</a></li>
+          {/* <li><a href="javascript:void(0)">Blog</a></li> */}
           <li class="dropdown has-dropdown"><a href="#"><span>Resources & Tools</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="dd-box-shadow">
-              <li><a href="#">Publication</a></li>
-              <li><a href="#">Reports</a></li>
-              <li><a href="#">Safe Guarding Policy</a></li>
-              <li><a href="#">Antimicrobial Resistance Action Plan</a></li>
+              <li><a href="/publication">Publication</a></li>
+              <li><a href="javascript:void(0)">Reports</a></li>
+              <li><a href="javascript:void(0)">Toolkits</a></li>
+              <li><a href="/amr">AMR Resource Bank</a></li>
+              <li><a href="/ntds">NTDs Resource Bank</a></li>
             </ul>
           </li>
           <li><a href="/#contact">Contact</a></li>
+          <li><a href="/donate">Donate</a></li>
         </ul>
 
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

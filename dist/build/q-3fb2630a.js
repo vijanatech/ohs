@@ -1,1 +1,0 @@
-import{O as e,c as t,_ as i}from"./q-734d351e.js";const s=e(t(()=>i(()=>import("./q-ebc7e5b0.js"),["build/q-ebc7e5b0.js","build/q-734d351e.js","build/q-6e24abe6.js"]),"s_UJysYuLpeA4")),a={title:"Welcome to Qwik",meta:[{name:"description",content:"Qwik site description"}]};export{s as default,a as head};
