@@ -8,7 +8,7 @@ export default component$(() => {
   <header id="header" class="header sticky-top d-flex align-items-center">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
         {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
         <ImgLogo alt=""/>
         {/* <!-- <h1>One Health Society</h1> --> */}

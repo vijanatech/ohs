@@ -45,7 +45,7 @@ export default component$(() => {
       <div class="service-item d-flex">
         <div class="icon flex-shrink-0"><i class="bi bi-bug"></i></div>
         <div>
-          <h4 class="title"><a href="javascript:void(0)" class="stretched-link">Neglected Tropical Diseases</a></h4>
+          <h4 class="title stretched-link">Neglected Tropical Diseases</h4>
           <p>Roadmap_Neglected Tropical Disease</p>
           <iframe src="https://cloud.appwrite.io/v1/storage/buckets/6500066e151dd2c12bf8/files/6500110b3bef91c8440e/view?project=64d4a54274614d421630&mode=admin" width="600" height="300"></iframe>
         </div>
