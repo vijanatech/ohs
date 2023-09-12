@@ -38,28 +38,26 @@ export default component$(() => {
 {/* <!-- End Section Title --> */}
 
 <div class="container">
-
   <div class="row gy-4">
-
-    <div class="col-lg-12 " data-aos="fade-up" data-aos-delay="100">
+    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
       <div class="service-item d-flex">
         <div class="icon flex-shrink-0"><i class="bi bi-bug"></i></div>
         <div>
           <h4 class="title"><a href="javascript:void(0)" class="stretched-link">Antimicrobial Resistance</a></h4>
           <p>WHO-Global-Research Agenda for AMR in Human Health Policy-Brief</p>
-          <iframe src="/pdfs/1.pdf" width="600" height="300"></iframe><br /><br />
+          <iframe src="https://cloud.appwrite.io/v1/storage/buckets/6500066e151dd2c12bf8/files/650010dc2833f59d6b13/view?project=64d4a54274614d421630&mode=admin" width="100%" height="500"></iframe>
+          <br /><br />
           <p>National One Health Strategic Plan 2022 - 2027</p>
-          <iframe src="/pdfs/2.pdf" width="600" height="300"></iframe><br /><br />
+          <iframe src="https://cloud.appwrite.io/v1/storage/buckets/6500066e151dd2c12bf8/files/65001189c6e883860aad/view?project=64d4a54274614d421630&mode=admin" width="100%" height="500"></iframe>
+          <br /><br />
           <p>THE NATIONAL ACTION PLAN 2023 - 2028</p>
-          <iframe src="/pdfs/3.pdf" width="600" height="300"></iframe>
+          <iframe src="https://cloud.appwrite.io/v1/storage/buckets/6500066e151dd2c12bf8/files/650010ef750773c31957/view?project=64d4a54274614d421630&mode=admin" width="100%" height="500"></iframe>
         </div>
       </div>
     </div>
-    {/* <!-- End Service Item --> */}
-
   </div>
-
 </div>
+
 
 </section>
 {/* nd Services Section */}
